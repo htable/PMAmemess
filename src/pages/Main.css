@@ -1,0 +1,115 @@
+#MainLayout{
+  background: #ccc;
+  width: 100vw;
+  height: 100vh;
+
+}
+  
+  #Header {
+    background: linear-gradient(to bottom, #30c551 70%, #ffffff);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width:60vw;
+    height: 8vh;
+    z-index: 2;
+  }
+  
+  #Header h1 {
+    font-size: 1.5rem;
+    margin: auto;
+    
+  }
+  @media screen and (max-width: 500px) {
+    #Header h1{
+      font-size: 1.2em;
+    }
+    
+  }
+  
+  #MemeDiv {
+    display: inline-flex;
+    
+  }
+
+  #prevImg{
+    max-width: 70%;
+    max-height: 65%;
+    margin: auto;
+  }
+
+  #showFrom{
+    max-width: 100%;
+    z-index: 1000;
+  }
+
+  #UploadMeme {
+    background-color: white; 
+    color: #30c551;
+    border: none;
+    width: 2em;
+    padding-left: .5em;
+    height: 1em;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:.5em;
+    margin-top: .5em;
+  }
+  
+  #UploadMeme svg {
+    margin-right: 5px;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg-gray-500 {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  }
+  
+  .upload-form {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 20px;
+    
+  }
+  
+  .upload-form label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .upload-form input[type="text"],
+  .upload-form input[type="file"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .upload-form button {
+    background-color: #1877f2; /* Facebook blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-form button:hover {
+    background-color: #0e5a8a; /* Darker shade of Facebook blue */
+  }
+  
