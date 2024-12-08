@@ -3,13 +3,13 @@
     import { getDatabase, ref, get } from 'firebase/database';
 
     const firebaseConfig = {
-  apiKey: "AIzaSyDGy0zwzrfsyTi1wEMm1LmWUalX7YkTQHo",
-  authDomain: "pmamemes-4f920.firebaseapp.com",
-  databaseURL: "https://pmamemes-4f920-default-rtdb.firebaseio.com",
-  projectId: "pmamemes-4f920",
-  storageBucket: "pmamemes-4f920.appspot.com",
-  messagingSenderId: "494369984268",
-  appId: "1:494369984268:web:9422089873a60ecb318329"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appI:""
     };
 
     function FirebaseConnector() {
